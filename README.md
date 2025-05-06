@@ -29,6 +29,14 @@ echo 'export PATH=$HOME/.bin:$PATH' >> ~/.bashrc
 source ~/.bashrc   # or: source ~/.zshrc
 ```
 
+### 2. Install `repo` (windows)
+
+```bash
+mkdir -p ~/.bin
+curl -L https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
+chmod +x ~/.bin/repo
+echo 'export PATH="$HOME/.bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
 ---
 
 ## 🚀 Getting Started
