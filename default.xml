@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github"
+          fetch="https://github.com/DigInnoCent/" />
+
+  <default revision="dev"
+           remote="github"
+           sync-j="4" />
+
+  <!-- Backend projects -->
+  <project path="b-cloudmate" name="b-cloudmate" />
+  <project path="b-projectshub" name="b-projectshub" />
+  <project path="b-pulsefin" name="b-pulsefin" />
+  <project path="b-pulsehub" name="b-pulsehub" />
+
+  <!-- Frontend projects -->
+  <project path="f-cloudmate" name="f-cloudmate" />
+  <project path="f-projectshub" name="f-projectshub" />
+  <project path="f-pulsefin" name="f-pulsefin" />
+  <project path="f-pulsehub" name="f-pulsehub" />
+</manifest>
